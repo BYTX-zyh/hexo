@@ -19,27 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"bytx-zyh.github.io","root":"/hexo/","images":"/hexo/images","scheme":"Pisces","darkmode":false,"version":"8.16.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/hexo/js/config.js"></script>
 
-    <meta name="description" content="配置思路">
+    <meta name="description" content="安装 hexo关于安装详细查看此处，需要的依赖包括有：  Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本) Git  而后使用npm安装hexo即可。 建站与站点文件夹概述安装完成后，使用如下命令创建新的站点： 123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install  新">
 <meta property="og:type" content="article">
-<meta property="og:title" content="nvim配置指南">
-<meta property="og:url" content="https://bytx-zyh.github.io/hexo/nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/f2d877182005/">
+<meta property="og:title" content="hexo">
+<meta property="og:url" content="https://bytx-zyh.github.io/hexo/hexo/13c36926d33b/">
 <meta property="og:site_name" content="白衣踏雪">
-<meta property="og:description" content="配置思路">
+<meta property="og:description" content="安装 hexo关于安装详细查看此处，需要的依赖包括有：  Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本) Git  而后使用npm安装hexo即可。 建站与站点文件夹概述安装完成后，使用如下命令创建新的站点： 123$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install  新">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-05-04T10:55:21.000Z">
-<meta property="article:modified_time" content="2023-05-04T10:56:06.113Z">
+<meta property="article:published_time" content="2023-05-23T11:15:36.000Z">
+<meta property="article:modified_time" content="2023-05-25T07:51:47.275Z">
 <meta property="article:author" content="bytx zyh">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://bytx-zyh.github.io/hexo/nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/f2d877182005/">
+<link rel="canonical" href="https://bytx-zyh.github.io/hexo/hexo/13c36926d33b/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://bytx-zyh.github.io/hexo/nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/f2d877182005/","path":"nvim配置指南/f2d877182005/","title":"nvim配置指南"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://bytx-zyh.github.io/hexo/hexo/13c36926d33b/","path":"hexo/13c36926d33b/","title":"hexo"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>nvim配置指南 | 白衣踏雪</title>
+<title>hexo | 白衣踏雪</title>
   
 
 
@@ -111,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%80%9D%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">配置思路</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-hexo"><span class="nav-number">1.</span> <span class="nav-text">安装 hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%99%E4%B8%8E%E7%AB%99%E7%82%B9%E6%96%87%E4%BB%B6%E5%A4%B9%E6%A6%82%E8%BF%B0"><span class="nav-number">2.</span> <span class="nav-text">建站与站点文件夹概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">安装主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E5%91%BD%E4%BB%A4"><span class="nav-number">5.</span> <span class="nav-text">hexo命令</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -166,7 +167,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://bytx-zyh.github.io/hexo/nvim%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/f2d877182005/">
+    <link itemprop="mainEntityOfPage" href="https://bytx-zyh.github.io/hexo/hexo/13c36926d33b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/hexo/images/avatar.gif">
@@ -179,12 +180,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="nvim配置指南 | 白衣踏雪">
+      <meta itemprop="name" content="hexo | 白衣踏雪">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          nvim配置指南
+          hexo
         </h1>
 
         <div class="post-meta-container">
@@ -194,9 +195,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-05-04 18:55:21 / 修改时间：18:56:06" itemprop="dateCreated datePublished" datetime="2023-05-04T18:55:21+08:00">2023-05-04</time>
+      <time title="创建时间：2023-05-23 19:15:36" itemprop="dateCreated datePublished" datetime="2023-05-23T19:15:36+08:00">2023-05-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-05-25 15:51:47" itemprop="dateModified" datetime="2023-05-25T15:51:47+08:00">2023-05-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/hexo/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
+        </span>
     </span>
 
   
@@ -208,7 +224,30 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="配置思路"><a href="#配置思路" class="headerlink" title="配置思路"></a>配置思路</h2>
+    <div class="post-body" itemprop="articleBody"><h2 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h2><p>关于安装详细查看<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85">此处</a>，需要的依赖包括有：</p>
+<ul>
+<li>Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</li>
+<li>Git</li>
+</ul>
+<p>而后使用npm安装hexo即可。</p>
+<h2 id="建站与站点文件夹概述"><a href="#建站与站点文件夹概述" class="headerlink" title="建站与站点文件夹概述"></a>建站与站点文件夹概述</h2><p>安装完成后，使用如下命令创建新的站点：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">hexo init &lt;folder&gt;</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> &lt;folder&gt;</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">npm install</span></span><br></pre></td></tr></table></figure>
+
+<p>新建站点的目录内容大致如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.landscape.yml</span><br><span class="line">├── _config.next.yml</span><br><span class="line">├── _config.yml</span><br><span class="line">├── db.json</span><br><span class="line">├── node_modules</span><br><span class="line">├── package-lock.json</span><br><span class="line">├── package.json</span><br><span class="line">├── public</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">├── themes</span><br><span class="line">└── yarn.lock</span><br></pre></td></tr></table></figure>
+
+<p>其中<code>config.yml</code>为站点配置文件，<code>_config.next.yml</code>为主题 next的配置文件，<code>source</code>目录下为源文件，而<code>themes</code>目录下为博客主题。</p>
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>通过搜索关键词 hexo themes或者在<a target="_blank" rel="noopener" href="https://hexo.io/themes/">hexo主题</a>中查看选择合适的主题，并根据其对应的readme文件进行安装与配置。</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在hexo中，配置文件通常需要两个，分别为<em>站点</em>配置文件与<em>主题</em>配置文件，站点配置文件一般为<code>_config.yml</code>,主题配置文件一般为<code>_config.themeName.yml</code>(例如<code>_config.next.yml</code>)，且主题配置的优先级高于站点配置。</p>
+<blockquote>
+<p>站点配置查看<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">此处</a>了解详细信息。</p>
+</blockquote>
+<h2 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a>hexo命令</h2><p>hexo 通常具有如下一些常用命令。</p>
+<blockquote>
+<p>官方文档查看<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">此处</a>。</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo init [folder] # 新建站点</span><br><span class="line">hexo new [layout] &lt;title&gt; # 新建一篇hexo文章</span><br><span class="line">hexo generate / hexo g # 生成静态文件</span><br><span class="line">hexo server / hexo s # 启动hexo服务器</span><br><span class="line">hexo deploy / hexo d # 部署网站</span><br><span class="line">hexo clean # 清除缓存文件</span><br></pre></td></tr></table></figure>
+
     </div>
 
     
@@ -216,19 +255,19 @@
     
 
     <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/hexo/tags/hexo/" rel="tag"># hexo</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/hexo/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hexo/1cc9975d48c0/" rel="prev" title="自动部署hexo">
-                  <i class="fa fa-chevron-left"></i> 自动部署hexo
+                <a href="/hexo/todo-md/c02f9161644d/" rel="prev" title="todo.md">
+                  <i class="fa fa-chevron-left"></i> todo.md
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/hexo/hop-nvim/12fc58fe29db/" rel="next" title="hop.nvim">
-                  hop.nvim <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
