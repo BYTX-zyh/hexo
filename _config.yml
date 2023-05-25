@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 白衣踏雪的博客
-subtitle: '随便看看？'
-description: ''
-keywords:
-author: bytx zyh
-language: zh-CN
-timezone: 'Asia/Shanghai'
+# 网站标题
+title: 白衣踏雪
+subtitle: '' # 网站副标题
+description: '' # 网站描述
+keywords: # 网站关键词
+author: bytx zyh # 作者
+language: zh-CN # 语言
+timezone: 'Asia/Shanghai' # 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -33,6 +34,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+auto_spacing: true # 中英文自动添加空格
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -43,6 +45,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
   enable: true
   line_number: true
@@ -50,6 +53,7 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
 prismjs:
   enable: false
   preprocess: true
